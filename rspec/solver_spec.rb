@@ -24,4 +24,8 @@ describe 'Solver' do
   it 'fizzbuzz should return fizz when N divisible by 3' do
     expect(@solver.fizzbuzz(9)).to eq('fizz')
   end
+
+  it 'fizzbuzz should return buzz when N divisible by 5' do
+    expect(@solver.fizzbuzz(20)).to eq('buzz')
+  end
 end
