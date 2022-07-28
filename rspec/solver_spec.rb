@@ -10,4 +10,9 @@ describe 'Solver' do
     solver = Solver.new
     expect { solver.factorial(-5) }.to raise_exception(ArgumentError)
   end
+
+  it 'method factorial returns 1 for 0' do
+    solver = Solver.new
+    expect(solver.factorial(0)).to eq(1)
+  end
 end
