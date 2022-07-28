@@ -33,4 +33,7 @@ describe 'Solver' do
     expect(@solver.fizzbuzz(30)).to eq('fizzbuzz')
   end
 
+  it 'fizzbuzz should return same number' do
+    expect(@solver.fizzbuzz(8)).to eq('8')
+  end
 end
