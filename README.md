@@ -15,15 +15,15 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Make sure you already installed Ruby version 3 or higher and Git. 
+- Make sure you already installed Ruby version 3 or higher and Git.
 
 ### Setup
 
 Clone the repository using the below commands.
 
-- `git clone git@github.com:aimalamiri/School-Library.git `
-- `cd School-Library`
-- `ruby main.rb`
+- `git clone git@github.com:aimalamiri/Practice-TDD-With-Rspec.git `
+- `cd Practice-TDD-With-RspecSchool-Library`
+- `ruby solver.rb`
 
 ### Usage
 
