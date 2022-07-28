@@ -1,3 +1,5 @@
+require_relative '../solver'
+
 describe 'Solver' do
   it 'factorial method should return 120 for 5' do
     solver = Solver.new
