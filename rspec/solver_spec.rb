@@ -20,4 +20,8 @@ describe 'Solver' do
   it 'method reverse returns the reverse of the string' do
     expect(@solver.reverse('hello')).to eq('olleh')
   end
+
+  it 'fizzbuzz should return fizz when N divisible by 3' do
+    expect(@solver.fizzbuzz(9)).to eq('fizz')
+  end
 end
